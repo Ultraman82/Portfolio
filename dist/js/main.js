@@ -14,7 +14,7 @@ function toggleMenu() {
   console.log("working");
   if (!showMenu) {
     menuBtn.classList.add("close");
-    menuMenu.classList.add("show");
+    menu.classList.add("show");
     menuNav.classList.add("show");
     menuBranding.classList.add("show");
     navItems.forEach(item => item.classList.add("show"));
@@ -22,7 +22,7 @@ function toggleMenu() {
     showMenu = true;
   } else {
     menuBtn.classList.remove("close");
-    menuMenu.classList.remove("show");
+    menu.classList.remove("show");
     menuNav.classList.remove("show");
     menuBranding.classList.remove("show");
     navItems.forEach(item => item.classList.remove("show"));
