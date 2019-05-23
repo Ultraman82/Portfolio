@@ -107,6 +107,17 @@ main {
     margin: 0.5rem;
     border-bottom: $secondary-color 5px solid;
   }
+  img {
+    width: 100%;
+    //display: block;
+    border: 3px #fff solid;
+
+    &:hover {
+      opacity: 0.5;
+      border-color: $secondary-color;
+      @include easeOut;
+    }
+  }
 }
 
 //Work/Projects
