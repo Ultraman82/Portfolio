@@ -130,7 +130,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(251, 251, 251, 0.5); }
+    background: rgba(10, 128, 255, 0.1); }
 
 a {
   color: #fff;
@@ -232,7 +232,7 @@ main {
     color: #000; }
 
 .btn-dark {
-  background: #777777;
+  background: black;
   color: #fff; }
 
 .btn-light {
