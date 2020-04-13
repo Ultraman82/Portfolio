@@ -243,12 +243,13 @@ main {
   color: #333; }
 
 .btn-work {
+  background: #f6f6f6;
   font-size: 1.5rem;
   font-weight: 600;
   margin-top: 3rem;
   display: inline-block;
   border-radius: 5%;
-  color: #333; }
+  color: #007bff; }
 
 #main-footer {
   text-align: center;
